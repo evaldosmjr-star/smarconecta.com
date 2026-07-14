@@ -8,10 +8,10 @@ Os arquivos prontos para envio ficam na pasta `hostinger/`.
 
 Para publicar pela Hostinger, envie o conteudo da pasta `hostinger/` para a pasta usada pelo dominio no FTP.
 
-Se quiser ativar deploy automatico pelo GitHub Actions depois, configure estes segredos no repositorio:
+O deploy automatico pelo GitHub Actions envia a pasta `dist/` por FTP para a Hostinger.
 
-- `FTP_SERVER`
-- `FTP_USERNAME`
-- `FTP_PASSWORD`
+Configure este segredo no repositorio:
 
-Com os segredos configurados, o workflow de deploy pode ser adicionado novamente sem expor senha no codigo.
+- `FTP_PASS`
+
+O host e o usuario FTP ja estao definidos no workflow. A senha fica apenas nos segredos do GitHub.
