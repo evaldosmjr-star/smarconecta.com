@@ -1,12 +1,16 @@
 # Conecta Tecnologia
 
-Site institucional da Conecta Tecnologia, preparado para hospedagem na Hostinger.
+Site institucional da Conecta Tecnologia, desenvolvedora de sistemas, aplicativos, automações e soluções digitais para empresas.
 
 ## Publicacao
 
-Os arquivos prontos para envio ficam na pasta `hostinger/`.
+Gere a versão de produção com:
 
-Para publicar pela Hostinger, envie o conteudo da pasta `hostinger/` para a pasta usada pelo dominio no FTP.
+```bash
+npm run build
+```
+
+Os arquivos prontos para envio ficam na pasta `dist/`.
 
 O deploy automatico pelo GitHub Actions envia a pasta `dist/` por FTP para a Hostinger.
 

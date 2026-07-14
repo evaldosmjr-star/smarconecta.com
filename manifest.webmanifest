@@ -1,0 +1,15 @@
+{
+  "name": "Conecta Tecnologia",
+  "short_name": "Conecta",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#041F33",
+  "theme_color": "#041F33",
+  "icons": [
+    {
+      "src": "/assets/logo-conecta.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
